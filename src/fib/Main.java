@@ -14,6 +14,12 @@ public class Main {
     scanner.close();
   }
 
+  /**
+   * Returns the nth Fibonacci value through recursion.
+   * 
+   * @param n Which Fibonacci value to return.
+   * @return Integer value of resulting Fibonacci calculation.
+   */
   public static int fib(int n) {
     if (n == 0)
       return 0;
